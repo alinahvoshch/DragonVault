@@ -1,6 +1,7 @@
 ﻿using DragonVault.Content.GUI.Vault;
 using DragonVault.Core.Loaders.UILoading;
 using DragonVault.Core.Systems;
+using DragonVault.Helpers;
 using System.Collections.Generic;
 using Terraria.GameContent.UI.Elements;
 using Terraria.UI;
