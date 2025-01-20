@@ -2,6 +2,15 @@ Browser: {
 	ListView: Показать списком
 	Filters: Фильтры
 
+	Sort: {
+		ID: по ID
+		Alphabetical: по алфавиту
+		Damage: по урону
+		Defense: по защите
+		Value: по стоимости
+		Life: по макс. здоровью
+	}
+
 	ButtonSizeSlider: {
 		Name: Изменить масштаб
 		Tooltip: Двигайте ползунок, чтобы изменить маштаб иконок в браузере
@@ -20,4 +29,10 @@ DraggableUIState: {
 ToggleButton: {
 	On: Вкл.
 	Off: Выкл.
+}
+
+InventoryButton: {
+	Name: Удалённый доступ к хранилищу
+	Tooltip: Требует аквамариновый драконий камень
+	ButtonMessage: Вы должны вставить аквамариновый драконий камень в хранилище, чтобы использовать эту функцию.
 }
