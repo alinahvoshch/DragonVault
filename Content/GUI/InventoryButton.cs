@@ -45,7 +45,7 @@ namespace DragonVault.Content.GUI
 			}
 			else
 			{
-				Main.NewText("Requires Cerulean Dragonstone", new Color(10, 200, 200));
+				Main.NewText(LocalizationHelper.GetGUIText("InventoryButton.ButtonMessage"), new Color(10, 200, 200));
 			}
 		}
 
@@ -53,8 +53,8 @@ namespace DragonVault.Content.GUI
 		{
 			if (vaultButton.IsMouseHovering)
 			{
-				Tooltip.SetName("Remote Vault Access");
-				Tooltip.SetTooltip("Requires Cerulean Dragonstone");
+				Tooltip.SetName(LocalizationHelper.GetGUIText("InventoryButton.Name"));
+				Tooltip.SetTooltip(LocalizationHelper.GetGUIText("InventoryButton.Tooltip"));
 			}
 
 			base.Draw(spriteBatch);
