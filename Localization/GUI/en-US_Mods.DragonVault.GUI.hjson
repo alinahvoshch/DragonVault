@@ -32,7 +32,7 @@ ToggleButton: {
 }
 
 InventoryButton: {
-	Name: Удалённый доступ к хранилищу
-	Tooltip: Требует аквамариновый драконий камень
-	ButtonMessage: Вы должны вставить аквамариновый драконий камень в хранилище, чтобы использовать эту функцию.
+	Name: Requires Cerulean Dragonstone
+	Tooltip: Requires Cerulean Dragonstone
+	ButtonMessage: Requires Cerulean Dragonstone
 }
